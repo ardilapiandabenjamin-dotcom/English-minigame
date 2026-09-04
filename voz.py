@@ -280,4 +280,4 @@ while juego_activo:
 
 
         print("❌ Error del servicio:")
-        print(error)import sounddevice as sd
+        print(error)
