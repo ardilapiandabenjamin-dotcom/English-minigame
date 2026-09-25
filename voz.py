@@ -1,3 +1,7 @@
+# ==================================
+# PALABRAS POR CATEGORÍA
+# ==================================
+
 import sounddevice as sd
 import numpy as np
 import scipy.io.wavfile as wav
@@ -28,13 +32,37 @@ palabras_categoria = {
         "nivel1": [
             ("juego", "game"),
             ("jugador", "player"),
-            ("enemigo", "enemy")
+            ("enemigo", "enemy"),
+            ("equipo", "team"),
+            ("mapa", "map"),
+            ("nivel", "level"),
+            ("vida", "life"),
+            ("puntos", "points"),
+            ("ganar", "win"),
+            ("perder", "lose"),
+            ("mundo", "world"),
+            ("tiempo", "time"),
+            ("premio", "prize"),
+            ("inicio", "start"),
+            ("final", "end")
         ],
 
         "nivel2": [
             ("espada", "sword"),
             ("poder", "power"),
-            ("batalla", "battle")
+            ("batalla", "battle"),
+            ("misión", "mission"),
+            ("personaje", "character"),
+            ("arma", "weapon"),
+            ("jefe", "boss"),
+            ("escudo", "shield"),
+            ("magia", "magic"),
+            ("aventura", "adventure"),
+            ("habilidad", "skill"),
+            ("competencia", "competition"),
+            ("estrategia", "strategy"),
+            ("desarrollador", "developer"),
+            ("videojuego", "videogame")
         ]
     },
 
@@ -44,13 +72,37 @@ palabras_categoria = {
         "nivel1": [
             ("pan", "bread"),
             ("queso", "cheese"),
-            ("manzana", "apple")
+            ("manzana", "apple"),
+            ("agua", "water"),
+            ("leche", "milk"),
+            ("huevo", "egg"),
+            ("arroz", "rice"),
+            ("pollo", "chicken"),
+            ("sal", "salt"),
+            ("sopa", "soup"),
+            ("carne", "meat"),
+            ("pescado", "fish"),
+            ("fruta", "fruit"),
+            ("azúcar", "sugar"),
+            ("tomate", "tomato")
         ],
 
         "nivel2": [
             ("hamburguesa", "hamburger"),
             ("ensalada", "salad"),
-            ("postre", "dessert")
+            ("postre", "dessert"),
+            ("desayuno", "breakfast"),
+            ("almuerzo", "lunch"),
+            ("cena", "dinner"),
+            ("chocolate", "chocolate"),
+            ("helado", "ice cream"),
+            ("zanahoria", "carrot"),
+            ("fresa", "strawberry"),
+            ("sándwich", "sandwich"),
+            ("pasta", "pasta"),
+            ("pizza", "pizza"),
+            ("ingrediente", "ingredient"),
+            ("restaurante", "restaurant")
         ]
     },
 
@@ -60,13 +112,37 @@ palabras_categoria = {
         "nivel1": [
             ("perro", "dog"),
             ("gato", "cat"),
-            ("pez", "fish")
+            ("pez", "fish"),
+            ("pájaro", "bird"),
+            ("vaca", "cow"),
+            ("cerdo", "pig"),
+            ("caballo", "horse"),
+            ("conejo", "rabbit"),
+            ("ratón", "mouse"),
+            ("gallina", "chicken"),
+            ("oveja", "sheep"),
+            ("pato", "duck"),
+            ("rana", "frog"),
+            ("mono", "monkey"),
+            ("oso", "bear")
         ],
 
         "nivel2": [
             ("tigre", "tiger"),
             ("elefante", "elephant"),
-            ("delfín", "dolphin")
+            ("delfín", "dolphin"),
+            ("león", "lion"),
+            ("jirafa", "giraffe"),
+            ("cocodrilo", "crocodile"),
+            ("serpiente", "snake"),
+            ("mariposa", "butterfly"),
+            ("pingüino", "penguin"),
+            ("rinoceronte", "rhinoceros"),
+            ("águila", "eagle"),
+            ("murciélago", "bat"),
+            ("chimpancé", "chimpanzee"),
+            ("canguro", "kangaroo"),
+            ("ornitorrinco", "platypus")
         ]
     }
 }
@@ -80,6 +156,7 @@ palabras_categoria = {
 print("==================================")
 print("🎤 ENGLISH SURVIVOR 🌎")
 print("==================================")
+
 
 
 print()
